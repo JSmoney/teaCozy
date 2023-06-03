@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+}
+
+/* TAGS */
+
+.container {
+    position: relative;
+  }
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+/* HEADER */
+
+header {
+    height: 69px;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    background-color: black;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+/* NAV BAR */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+}
+
+a {
+    color: seashell;  
+}
+
+a:link {
+    text-decoration: underline;   
+    color: seashell;
+}
+
+a:hover {
+    transition: text-decoration 1s;
+    transition-timing-function: ease-in;
+    color: rgb(195, 255, 247);
+}  
+
+a:focus {
+    color: aliceblue;
+    transition: color 1s;
+    transition-timing-function: ease-in;
+}
+
+/* MAIN */
+
+/* HERO */
+
+main {
+    margin-top: 69px;
+}
+
+.hero {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url('/Users/apple/Desktop/DevProjects/teaCozy/resources/images/img-mission-background.jpeg');
+}
+
+.titles {
+    background-color: black;
+    width: 100%;
+}
+
+.titles > * {
+    text-align: center;
+}
+
+/* TEA SECTION */
+
+.tea-of-the-Month-section {
+    margin-top: 90px;
+}
+
+.teas {
+    width: 1000px;
+    margin: auto;
+}
+
+.tea-cards-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-cards-container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+/* LOCATION SECTION */
+
+.location-section {
+    height: 580px;
+    width: 1200px;
+    background: url('./resources/images/img-locations-background.jpeg');
+    margin: auto;
+    position: relative;
+}
+
+.location-title {
+    position: absolute;
+    top: 18%;
+    left: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.location-title h2 {
+    margin-bottom: 15px;
+}
+
+.location-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+}
+
+.location-card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+/* CONTACT INFO */
+
+.contact-info {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
